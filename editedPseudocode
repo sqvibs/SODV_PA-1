@@ -1,0 +1,15 @@
+// Declare variables
+Declare String dayOfWeek
+Declare Integer caloriesLost 
+Declare Real milesWalked
+Declare stepsTaken
+Display "Enter the day of week. "
+Display "Enter the number of steps reported on the pedometer. "
+Input dayOfWeek
+Input stepsTaken
+// Processing
+Set milesWalked = stepsTaken / 2000
+Set caloriesLost = milesWalked * 65
+// Output
+Display "Th following is data for, " dayOfWeek
+Display "Walking ", milesWalked, " miles results in ", caloriesLost, "
